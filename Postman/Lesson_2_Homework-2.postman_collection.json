@@ -66,7 +66,7 @@
 							"\r",
 							"//14. Проверить, что параметр start_qa_salary равен salary из request (salary забрать из request.)\r",
 							"pm.test(\"start_qa_salary parametr is = to salary from request\", function(){\r",
-							"    pm.expect(jsonData.start_qa_salary).to.eql(parseInt(salary))\r",
+							"    pm.expect(jsonData.start_qa_salary).to.eql(+req.salary)\r",
 							"});\r",
 							"\r",
 							"//15. Проверить, что параметр qa_salary_after_6_months равен salary*2 из request (salary забрать из request.)\r",
