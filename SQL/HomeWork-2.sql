@@ -4,7 +4,7 @@
 
 CREATE TABLE employees(
 	id serial PRIMARY KEY,
-	employee_name varchar(50) NOT NULL
+	employee_name varchar(50) NOT null 
 );
 
 --2.	Наполнить таблицу employee 70 строками.
