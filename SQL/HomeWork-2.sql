@@ -1,4 +1,4 @@
---1.	Создать таблицу employees
+--1.	РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ employees
 -- id. serial,  primary key,
 -- employee_name. Varchar(50), not null
 
@@ -7,82 +7,82 @@ CREATE TABLE employees(
 	employee_name varchar(50) NOT null 
 );
 
---2.	Наполнить таблицу employee 70 строками.
+--2.	РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ employee 70 СЃС‚СЂРѕРєР°РјРё.
 
 insert into employees(employee_name)
 values('Geronimo'),
-	('Лена Голуб'),
-	('Джефф'),
+	('Р›РµРЅР° Р“РѕР»СѓР±'),
+	('Р”Р¶РµС„С„'),
 	('Mr.Ilyasov'),
-	('Аракчеев Никита'),
-	('Айдар'),
-	('Лапоухов Александр'),
+	('РђСЂР°РєС‡РµРµРІ РќРёРєРёС‚Р°'),
+	('РђР№РґР°СЂ'),
+	('Р›Р°РїРѕСѓС…РѕРІ РђР»РµРєСЃР°РЅРґСЂ'),
 	('@korotushak96'),
 	('@Nikita_Nikita'),
 	('Tatsiana_Kulaha'),
 	('Viktoryia Sikirytskaya'),
-	('Ленинг Алексей'),
+	('Р›РµРЅРёРЅРі РђР»РµРєСЃРµР№'),
 	('Miroslav'),
 	('@olimpwulf'),
 	('@SeregaRomanich'),
-	('Алексей Ткачев'),
+	('РђР»РµРєСЃРµР№ РўРєР°С‡РµРІ'),
 	('Inga Vasylenko'),
 	('@Olga_Varona'),
 	('SVETLANA'),
 	('Kasinski Dmitriy'),
-	('Михаил @brkt'),
-	('Анастасия @Annchy'),
-	('Максим Аксенов'),
+	('РњРёС…Р°РёР» @brkt'),
+	('РђРЅР°СЃС‚Р°СЃРёСЏ @Annchy'),
+	('РњР°РєСЃРёРј РђРєСЃРµРЅРѕРІ'),
 	('Fiaskou_Aliaksandr_Padawans'),
 	('Svetlana Sukhoivan'),
 	('Valeria Shirokova'),
 	('Kalipsou'),
 	('Yaroslav Kozakov'),
-	('Светлана Б'),
-	('Екатерина Кузьмич'),
-	('Юлия Лымарева'),
-	('Алеся Дедовец'),
-	('Бойко Андрей'),
+	('РЎРІРµС‚Р»Р°РЅР° Р‘'),
+	('Р•РєР°С‚РµСЂРёРЅР° РљСѓР·СЊРјРёС‡'),
+	('Р®Р»РёСЏ Р›С‹РјР°СЂРµРІР°'),
+	('РђР»РµСЃСЏ Р”РµРґРѕРІРµС†'),
+	('Р‘РѕР№РєРѕ РђРЅРґСЂРµР№'),
 	('Evgeniya Paleeva'),
 	('Tim Dambrowski'),
 	('Ivan_Nik'),
-	('Андрусенко Захар'),
-	('Вадим Тараненко'),
+	('РђРЅРґСЂСѓСЃРµРЅРєРѕ Р—Р°С…Р°СЂ'),
+	('Р’Р°РґРёРј РўР°СЂР°РЅРµРЅРєРѕ'),
 	('Marina_Zharova'),
 	('la_mula'),
 	('Elena Kernoga'),
-	('Сократова Екатерина'),
-	('Варшавская Людмила'),
-	('Трапезникова Елена'),
+	('РЎРѕРєСЂР°С‚РѕРІР° Р•РєР°С‚РµСЂРёРЅР°'),
+	('Р’Р°СЂС€Р°РІСЃРєР°СЏ Р›СЋРґРјРёР»Р°'),
+	('РўСЂР°РїРµР·РЅРёРєРѕРІР° Р•Р»РµРЅР°'),
 	('Denis Knotko'),
 	('Anastasia'),
 	('Ekaterina Sharonina'),
-	('Яна Литорина'),
+	('РЇРЅР° Р›РёС‚РѕСЂРёРЅР°'),
 	('Artem'),
 	('Kristina Tsurko'),
-	('Михаил @M4e5tRO'),
-	('Елизавета Короткова Fly Kavasima'),
-	('Элеонора Армизонова'),
+	('РњРёС…Р°РёР» @M4e5tRO'),
+	('Р•Р»РёР·Р°РІРµС‚Р° РљРѕСЂРѕС‚РєРѕРІР° Fly Kavasima'),
+	('Р­Р»РµРѕРЅРѕСЂР° РђСЂРјРёР·РѕРЅРѕРІР°'),
 	('Omurbek Rysbaev'),
 	('Oleksii Kralin'),
 	('Alisa Shevchenko'),
-	('Багненко Владимир'),
-	('Лебедев Олег'),
-	('Максим Глебов'),
-	('Федор Шип'),
-	('Евгений Палата'),
+	('Р‘Р°РіРЅРµРЅРєРѕ Р’Р»Р°РґРёРјРёСЂ'),
+	('Р›РµР±РµРґРµРІ РћР»РµРі'),
+	('РњР°РєСЃРёРј Р“Р»РµР±РѕРІ'),
+	('Р¤РµРґРѕСЂ РЁРёРї'),
+	('Р•РІРіРµРЅРёР№ РџР°Р»Р°С‚Р°'),
 	('Kladkova Ekaterina'),
-	('Жухоук'),
-	('ухожук'),
-	('Креатив прет'),
+	('Р–СѓС…РѕСѓРє'),
+	('СѓС…РѕР¶СѓРє'),
+	('РљСЂРµР°С‚РёРІ РїСЂРµС‚'),
 	('Kugach_Inna'),
 	('Maksimov_Vladimir_Group_24'),
 	('Ksendzov_Vas'),
 	('Lidia Kit'),
-	('Сергей Безпалов');
+	('РЎРµСЂРіРµР№ Р‘РµР·РїР°Р»РѕРІ');
 
 
---3.	Создать таблицу salary
+--3.	РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ salary
 -- id. Serial  primary key,
 -- monthly_salary. Int, not null
 
@@ -93,7 +93,7 @@ create table salary(
 
 
 
---4.	Наполнить таблицу salary 15 строками:
+--4.	РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ salary 15 СЃС‚СЂРѕРєР°РјРё:
 -- 1000
 -- 1100
 -- 1200
@@ -130,7 +130,7 @@ values ('1000'),
 	('2500');
 
 
---5.	Создать таблицу employee_salary
+--5.	РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ employee_salary
 -- id. Serial  primary key,
 -- employee_id. Int, not null, unique
 -- salary_id. Int, not null
@@ -141,8 +141,8 @@ employee_id int not null unique,
 salary_id int not null
 );
 
---6.	Наполнить таблицу employee_salary 40 строками:
--- в 10 строк из 40 вставить несуществующие employee_id
+--6.	РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ employee_salary 40 СЃС‚СЂРѕРєР°РјРё:
+-- РІ 10 СЃС‚СЂРѕРє РёР· 40 РІСЃС‚Р°РІРёС‚СЊ РЅРµСЃСѓС‰РµСЃС‚РІСѓСЋС‰РёРµ employee_id
 
 insert into employee_salary (employee_id, salary_id)
 values (1, 1),
@@ -186,7 +186,7 @@ values (1, 1),
 		(79, 7),
 		(80, 3);
 	
---7.	Создать таблицу roles
+--7.	РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ roles
 -- id. Serial  primary key,
 -- role_name. int, not null, unique
 
@@ -196,13 +196,13 @@ values (1, 1),
 );
 
 
---8.	Поменять тип столба role_name с int на varchar(30)
+--8.	РџРѕРјРµРЅСЏС‚СЊ С‚РёРї СЃС‚РѕР»Р±Р° role_name СЃ int РЅР° varchar(30)
 
 alter table roles
 alter column role_name type varchar(30);
 
 
---9.	Наполнить таблицу roles 20 строками (о профессиях)
+--9.	РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ roles 20 СЃС‚СЂРѕРєР°РјРё (Рѕ РїСЂРѕС„РµСЃСЃРёСЏС…)
 
 insert into roles(role_name)
 values ('Python_Developer_Junior'),
@@ -227,10 +227,10 @@ values ('Python_Developer_Junior'),
 		('Automation_QA_Senior');
 	
 		
---10.	Создать таблицу roles_employee
+--10.	РЎРѕР·РґР°С‚СЊ С‚Р°Р±Р»РёС†Сѓ roles_employee
 -- id. Serial  primary key,
--- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
--- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+-- employee_id. Int, not null, unique (РІРЅРµС€РЅРёР№ РєР»СЋС‡ РґР»СЏ С‚Р°Р±Р»РёС†С‹ employees, РїРѕР»Рµ id)
+-- role_id. Int, not null (РІРЅРµС€РЅРёР№ РєР»СЋС‡ РґР»СЏ С‚Р°Р±Р»РёС†С‹ roles, РїРѕР»Рµ id)
 	
 create table roles_employee(
 	id serial primary key,
@@ -243,7 +243,7 @@ create table roles_employee(
 );
 		
 
---11.	Наполнить таблицу roles_employee 40 строками:
+--11.	РќР°РїРѕР»РЅРёС‚СЊ С‚Р°Р±Р»РёС†Сѓ roles_employee 40 СЃС‚СЂРѕРєР°РјРё:
 
 insert into roles_employee(employee_id, role_id)
 values
