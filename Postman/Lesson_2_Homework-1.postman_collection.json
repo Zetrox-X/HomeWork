@@ -18,7 +18,7 @@
 							"\r",
 							"\r",
 							"pm.test(\"Body matches string\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"This is the first responce from server\");\r",
+							"    pm.expect(pm.response.text()).to.eql(\"This is the first responce from server!\");\r",
 							"});"
 						],
 						"type": "text/javascript"
